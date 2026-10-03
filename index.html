@@ -14,13 +14,22 @@
             width: 500px;
             height: auto;
         }
+        footer{ 
+            display: flex;
+            align-items:center;
+        }
+        footer img{
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
     </style>
 </head>
 
 <body>
 
     <header>
-        <h1>Coachella 2026 Music Festival </h1>
+        <h1>Welcome To Coachella's 2026 Music Festival </h1>
     </header>
 
     <nav>
@@ -55,6 +64,7 @@
 
         <img src="images/Coachella Weekend 1.jpg" alt= "Coachella Weekend 1 Performers">
         <figcaption>Coachella Weekend 1 Performers</figcaption>
+        <br>
         <img src="images/Coachella Weekend 2.jpg" alt= "Coachella Weekend 2 Performers">
         <figcaption>Coachella Weekend 2 Performers</figcaption>
 
@@ -70,7 +80,7 @@
     <section id="registration">
         <h2> Register for Coachella Today </h2>
 
-        <form>
+        <form action="confirmation.html">
             <h3> Personal Information </h3>
 
              <label for="first-name"> First Name: </label>
@@ -85,7 +95,7 @@
 
             <br>
             <label for="phone"> Phone Number: </label>
-            <input type="tel" id="phone" name="phone>">
+            <input type="tel" id="phone" name="phone">
 
             <h3>Admission Prices </h3>
             <p> General Admission: $599
@@ -132,7 +142,7 @@
             <textarea id="comments" name="comments" rows="5" cols="40"></textarea>
 
             <br>
-            <button type="submit" formaction="confirmation.html">Register</button>
+            <button type="submit">Register</button>
 
             <h3>Important Details</h3>
             <p> The festival takes place over three days. Festival passes are <strong>required for entry.</strong>
@@ -144,6 +154,7 @@
     </main>
 
     <footer>
+        <img src="images/Coachella Footer Logo.jpg" alt="Coachella Logo">
         <p> Coachella 2026 Music Festival</p>
     </footer>
 
